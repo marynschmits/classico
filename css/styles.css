@@ -1,0 +1,222 @@
+body {
+    max-width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+  
+}
+
+header {
+    height: 100%;
+
+}
+
+
+#navbar {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+    .navbar-scrolled {
+        background-color: black !important; /* Achtergrondkleur wordt zwart bij scrollen */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optioneel: voeg een schaduw toe voor een visueel effect */
+    }
+    
+    
+    .navbar {
+        list-style-type: none;
+        display: flex;
+        align-items: center; /* Centreert de items verticaal */
+        text-align: center;
+    }
+    
+    
+    
+   
+    
+   
+
+.navbar li {
+    display: inline-block;
+    margin: 0 40px; 
+     padding-top: 20px;}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); }
+
+header img {
+    vertical-align: middle;
+    margin-left: 5px;}
+
+.cover-container {
+    background-image: url(../img/ch-coverimage.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 950px;
+    width: device-width;
+    text-align: center;
+    }
+
+
+.cover-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.welcomeimage {
+    padding-top: 300px;
+}
+
+.welcomeimage {
+    opacity: 0; /* Start met een onzichtbare afbeelding */
+    transition: opacity 2s ease; /* Voeg een overgang toe om de opaciteit langzaam te veranderen */
+}
+
+.hidden {
+    visibility: hidden; /* Verberg de afbeelding zonder de lay-out te verstoren */
+}
+
+
+.container {
+    position: fixed;
+    bottom: 20px; /* Afstand vanaf de onderkant van het scherm */
+    right: 50px; /* Afstand vanaf de rechterkant van het scherm */
+  }
+  
+  
+  
+
+.sponsor-container {
+    display: flex;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.sponsor-container img {
+    display: block;
+    margin-left: 50px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    max-width: 100%;
+    padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container p {
+    padding-top: 25px;
+    max-width: 710px;
+    line-height: 1.2;
+}
+
+.intro-image {
+    margin-left: 90px;
+    padding-top: 90px; 
+}
+
+button {
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.flex-container a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.afspraak-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.review-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    z-index: -1;
+    
+   
+}
+
+.review-container img {
+    display: block;
+    
+  
+    
+}
+
+.middle-container {
+    display: flex;
+    margin-top: 100px;
+    height: 400px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+
+    height: 600px;
+}
+
+.openingstijden {
+    display: flex;
+    line-height: 2;
+
+}
+
+.openingstijden ul {
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
